@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- use '_' to separate words and note the case difference -->
+<config>
+	<business_one>
+		TEST_ONE,
+		TEST_TWO,
+		TEST_THREE
+	</business_one>
+	<business_two>
+		TEST_THREE,
+		TEST_FOUR,
+	</business_two>
+</config>

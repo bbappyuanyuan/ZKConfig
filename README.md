@@ -2,6 +2,8 @@
 ## Introduction
 ZKConfig is a simple demo which manages configuration of distributed system. All properties are classified by business and stored in */config/$business_name$*. Users can acquire them via *$business_name$Data.getXXX()*.
 
+<img src="https://raw.githubusercontent.com/bbappyuanyuan/ZKConfig/master/images/structure.png"/>
+
 Below is description for some necessary tools:
 
 - *CodeBuilder.java* - Generate java codes of Data classes and GET methods according to *config-list.xml*

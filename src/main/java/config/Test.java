@@ -10,8 +10,9 @@ public class Test {
 
   public static void main(String[] args) throws IllegalAccessException, IllegalArgumentException,
       InvocationTargetException {
+
     // TODO Auto-generated method stub
-    System.out.println("started");
+    System.out.println("start testing");
     Config.init();
     while (true) {
       Method[] methods1 = BusinessOneData.class.getMethods();
@@ -21,7 +22,7 @@ public class Test {
           continue;
         Object o = method.invoke(new BusinessOneData(), new Object[] {});
         if (o instanceof String) {
-          System.out.println(method.getName() + ": " + (String) o);
+          System.out.println("BusinessOneData()." + method.getName() + ": " + (String) o);
         }
       }
       for (Method method : methods2) {
@@ -29,7 +30,7 @@ public class Test {
           continue;
         Object o = method.invoke(new BusinessTwoData(), new Object[] {});
         if (o instanceof String) {
-          System.out.println(method.getName() + ": " + (String) o);
+          System.out.println("BusinessTwoData()." + method.getName() + ": " + (String) o);
         }
       }
       try {

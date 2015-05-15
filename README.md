@@ -4,11 +4,16 @@ ZKConfig is a simple demo which manages configuration of distributed system. All
 
 <img src="https://raw.githubusercontent.com/bbappyuanyuan/ZKConfig/master/images/structure.png"/>
 
-Below is description for some necessary tools:
+## Description
+*Test.java* - A complete demo.
 
-- *CodeBuilder.java* - Generate java codes of Data classes and GET methods according to *config-list.xml*
-- *ConfigExporter* - Show all properties in ZooKeeper
-- *ConfigImporter* - Import properties from *config-import.properties* (they'll cover the old ones).
+*CodeBuilder.java* - Generate java codes of Data classes and GET methods according to *config-list.xml*.
+
+*ConfigExporter.java* - Show all properties in ZooKeeper.
+
+*ConfigImporter.java* - Import properties from *config-import.properties* (they'll cover the old ones).
+
+*log.html* - Logs.
 
 ## Reference
 http://sysgears.com/articles/managing-configuration-of-distributed-system-with-apache-zookeeper/
